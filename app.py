@@ -4,6 +4,7 @@ import uuid
 from datetime import datetime, date, timedelta
 from pathlib import Path
 import os
+import tempfile
 
 st.set_page_config(
     page_title="Fællesskab",
@@ -18,17 +19,23 @@ st.set_page_config(
 )
 
 # ========== DATABASE SETUP ==========
-# On Streamlit Cloud the repo folder is read-only, so fall back to a temp dir
+# On Streamlit Cloud the repo folder can be read-only, so fall back to a
+# guaranteed writable temporary directory if needed.
 def _get_db_dir() -> Path:
-	primary = Path("data")
-	try:
-		primary.mkdir(exist_ok=True)
-		return primary
-	except PermissionError:
-		tmp_root = os.getenv("STREAMLIT_TMP_DIR", "/mount/tmp")
-		fallback = Path(tmp_root) / "data"
-		fallback.mkdir(parents=True, exist_ok=True)
-		return fallback
+    primary = Path("data")
+    try:
+        primary.mkdir(exist_ok=True)
+        return primary
+    except Exception:
+        try:
+            tmp_root = Path(tempfile.gettempdir())
+            fallback = tmp_root / "streamlit_meetup_data"
+            fallback.mkdir(parents=True, exist_ok=True)
+            return fallback
+        except Exception:
+            # As a last resort, return the primary path; any issues will surface
+            # when files are actually written, but we can't do more here.
+            return primary
 
 DB_DIR = _get_db_dir()
 
