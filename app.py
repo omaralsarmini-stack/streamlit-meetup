@@ -3,6 +3,7 @@ import json
 import uuid
 from datetime import datetime, date, timedelta
 from pathlib import Path
+import os
 
 st.set_page_config(
     page_title="Fællesskab",
@@ -17,8 +18,19 @@ st.set_page_config(
 )
 
 # ========== DATABASE SETUP ==========
-DB_DIR = Path("data")
-DB_DIR.mkdir(exist_ok=True)
+# On Streamlit Cloud the repo folder is read-only, so fall back to a temp dir
+def _get_db_dir() -> Path:
+	primary = Path("data")
+	try:
+		primary.mkdir(exist_ok=True)
+		return primary
+	except PermissionError:
+		tmp_root = os.getenv("STREAMLIT_TMP_DIR", "/mount/tmp")
+		fallback = Path(tmp_root) / "data"
+		fallback.mkdir(parents=True, exist_ok=True)
+		return fallback
+
+DB_DIR = _get_db_dir()
 
 DEMO_FRIENDS = [
     {
