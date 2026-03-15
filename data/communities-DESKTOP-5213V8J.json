@@ -1,0 +1,94 @@
+{
+  "0d5ab620-707c-43af-8ff8-da0d7f18fd1b": {
+    "id": "0d5ab620-707c-43af-8ff8-da0d7f18fd1b",
+    "name": "\u2615 Kaffe-Entusiaster",
+    "description": "For alle der elsker kaffe! Vi m\u00f8des p\u00e5 hyggelige caf\u00e9er og diskuterer sorter.",
+    "hobbies": [
+      "Kaffe",
+      "Socialsamv\u00e6r"
+    ],
+    "creator_id": "system",
+    "members": [
+      "8770ae56-7511-4d81-846c-fd3099a99a7d"
+    ],
+    "settings": {},
+    "created_at": "2026-03-15 13:37:44.544624"
+  },
+  "b33ae5e8-d0c2-4df8-8a60-dbefb62a2afe": {
+    "id": "b33ae5e8-d0c2-4df8-8a60-dbefb62a2afe",
+    "name": "\ud83c\udfa8 Kunstnere & Designere",
+    "description": "Kreativ f\u00e6llesskab for kunstnere, designere og kreative sj\u00e6le.",
+    "hobbies": [
+      "Kunst",
+      "Design",
+      "Musik"
+    ],
+    "creator_id": "system",
+    "members": [
+      "8770ae56-7511-4d81-846c-fd3099a99a7d"
+    ],
+    "settings": {},
+    "created_at": "2026-03-15 13:37:44.544638"
+  },
+  "a92c8713-c903-4441-b9b8-19c6a772784d": {
+    "id": "a92c8713-c903-4441-b9b8-19c6a772784d",
+    "name": "\ud83d\udcaa Fitnessb\u00f8lgen",
+    "description": "Tr\u00e6n sammen, motiv\u00e9r hinanden! Alle fitnessniveauer velkommen.",
+    "hobbies": [
+      "Tr\u00e6ning",
+      "Sundhed"
+    ],
+    "creator_id": "system",
+    "members": [
+      "8770ae56-7511-4d81-846c-fd3099a99a7d"
+    ],
+    "settings": {},
+    "created_at": "2026-03-15 13:37:44.544645"
+  },
+  "4f450545-48d9-401a-9502-461ec94c036c": {
+    "id": "4f450545-48d9-401a-9502-461ec94c036c",
+    "name": "\ud83c\udfae Gamers Forening",
+    "description": "For alle der elsker at spille! Fra casual til hardcore gamers.",
+    "hobbies": [
+      "Gaming",
+      "Tech"
+    ],
+    "creator_id": "system",
+    "members": [
+      "8770ae56-7511-4d81-846c-fd3099a99a7d"
+    ],
+    "settings": {},
+    "created_at": "2026-03-15 13:37:44.544651"
+  },
+  "aa71ce29-0fdf-44fd-9f11-48f2ec954c0f": {
+    "id": "aa71ce29-0fdf-44fd-9f11-48f2ec954c0f",
+    "name": "\ud83d\udcda Bog-Klubben",
+    "description": "Vi diskuterer b\u00f8ger og snakker litteratur over kaffe.",
+    "hobbies": [
+      "L\u00e6sning",
+      "Kultur"
+    ],
+    "creator_id": "system",
+    "members": [
+      "8770ae56-7511-4d81-846c-fd3099a99a7d"
+    ],
+    "settings": {},
+    "created_at": "2026-03-15 13:37:44.544656"
+  },
+  "4fc5d8b8-32f4-481e-b53e-a70680f0022f": {
+    "id": "4fc5d8b8-32f4-481e-b53e-a70680f0022f",
+    "name": "\ud83d\udeb4 Cykelvenner",
+    "description": "Cykelture i og omkring K\u00f8benhavn. Alle niveauer.",
+    "hobbies": [
+      "Cykling",
+      "Udend\u00f8rs",
+      "Sundhed"
+    ],
+    "creator_id": "system",
+    "members": [
+      "8770ae56-7511-4d81-846c-fd3099a99a7d"
+    ],
+    "settings": {},
+    "created_at": "2026-03-15 13:37:44.544661"
+  }
+}

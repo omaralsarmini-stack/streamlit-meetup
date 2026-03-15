@@ -1,0 +1,65 @@
+{
+  "13309451-3767-4c8e-a4db-099ab70aeeb4": {
+    "id": "13309451-3767-4c8e-a4db-099ab70aeeb4",
+    "username": "Omar",
+    "password": "1234",
+    "email": "OMatg@gmail.com",
+    "age": 18,
+    "created_at": "2026-03-02 10:33:57.666718",
+    "online": false
+  },
+  "9d8d067c-794a-4c57-820d-21d3ee2c53a7": {
+    "id": "9d8d067c-794a-4c57-820d-21d3ee2c53a7",
+    "username": "TBC_OMAR1",
+    "password": "1234",
+    "email": "omatr12t24r@gmail.com",
+    "age": 19,
+    "created_at": "2026-03-09 11:17:37.426914",
+    "online": true
+  },
+  "98f8d6d1-2634-4034-be9d-7fe4698bca3f": {
+    "id": "98f8d6d1-2634-4034-be9d-7fe4698bca3f",
+    "username": "Omar12",
+    "password": "1234",
+    "email": "OMAra2412",
+    "age": 18,
+    "created_at": "2026-03-11 14:42:43.919942",
+    "online": true
+  },
+  "67f0402f-de43-4050-8ede-1571828e2050": {
+    "id": "67f0402f-de43-4050-8ede-1571828e2050",
+    "username": "Kasper",
+    "password": "123456",
+    "email": "kasper@example.com",
+    "age": 22,
+    "created_at": "2026-03-11 14:42:52.692627",
+    "online": false
+  },
+  "77108fa8-51da-4a4d-b963-fbd082794a40": {
+    "id": "77108fa8-51da-4a4d-b963-fbd082794a40",
+    "username": "Freja",
+    "password": "123456",
+    "email": "freja@example.com",
+    "age": 24,
+    "created_at": "2026-03-11 14:42:52.692691",
+    "online": false
+  },
+  "606a5e6d-29ea-4902-b3f0-65b9cfe8b454": {
+    "id": "606a5e6d-29ea-4902-b3f0-65b9cfe8b454",
+    "username": "Sofie",
+    "password": "123456",
+    "email": "sofie@example.com",
+    "age": 23,
+    "created_at": "2026-03-11 14:42:52.692726",
+    "online": false
+  },
+  "8086679d-3b74-4ba4-828d-4a5ec236bf7c": {
+    "id": "8086679d-3b74-4ba4-828d-4a5ec236bf7c",
+    "username": "omar",
+    "password": "1234",
+    "email": "32twgSG",
+    "age": 18,
+    "created_at": "2026-03-15 14:59:22.720698",
+    "online": true
+  }
+}

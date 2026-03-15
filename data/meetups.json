@@ -1,0 +1,87 @@
+{
+  "887a5da6-0c36-4c35-9328-71576df97f34": {
+    "id": "887a5da6-0c36-4c35-9328-71576df97f34",
+    "title": "kaffe",
+    "description": "fef",
+    "creator_id": "13309451-3767-4c8e-a4db-099ab70aeeb4",
+    "time": "2026-03-02 10:40:00",
+    "location": "cafe",
+    "invited_users": [],
+    "responses": {},
+    "created_at": "2026-03-02 10:41:02.538790"
+  },
+  "a8e4d049-8472-4713-86da-b02748bcb123": {
+    "id": "a8e4d049-8472-4713-86da-b02748bcb123",
+    "title": "kaffe",
+    "description": "vi skal have kaffe ",
+    "creator_id": "13309451-3767-4c8e-a4db-099ab70aeeb4",
+    "time": "2026-03-09 10:14:00",
+    "location": "cafe york",
+    "invited_users": [],
+    "responses": {},
+    "created_at": "2026-03-09 10:16:12.220561"
+  },
+  "ce315e56-6fb1-462b-a936-b1a8147a946e": {
+    "id": "ce315e56-6fb1-462b-a936-b1a8147a946e",
+    "title": "cafe ",
+    "description": "fqeihfqef",
+    "creator_id": "9d8d067c-794a-4c57-820d-21d3ee2c53a7",
+    "time": "2026-03-09 12:39:00",
+    "location": "cafe york",
+    "invited_users": [],
+    "responses": {},
+    "created_at": "2026-03-09 12:40:24.728065"
+  },
+  "4ab3d40d-639b-4967-ad76-f5234a488d57": {
+    "id": "4ab3d40d-639b-4967-ad76-f5234a488d57",
+    "title": "Kaffe & hygge",
+    "description": "Uformelt meetup p\u00e5 caf\u00e9 med plads til nye venner.",
+    "creator_id": "13309451-3767-4c8e-a4db-099ab70aeeb4",
+    "time": "2026-03-13 17:31:35.042178",
+    "location": "Caf\u00e9 Norden",
+    "invited_users": [
+      "9d8d067c-794a-4c57-820d-21d3ee2c53a7"
+    ],
+    "responses": {},
+    "created_at": "2026-03-11 14:31:35.042187"
+  },
+  "afae0a7f-a7aa-423c-bdc5-efa9988b8998": {
+    "id": "afae0a7f-a7aa-423c-bdc5-efa9988b8998",
+    "title": "Br\u00e6tspilsaften",
+    "description": "Tag dit yndlingsspil med og m\u00f8d nye mennesker.",
+    "creator_id": "13309451-3767-4c8e-a4db-099ab70aeeb4",
+    "time": "2026-03-15 15:31:35.042181",
+    "location": "Kulturhuset",
+    "invited_users": [
+      "9d8d067c-794a-4c57-820d-21d3ee2c53a7"
+    ],
+    "responses": {},
+    "created_at": "2026-03-11 14:31:35.042191"
+  },
+  "688847b4-5a1e-42df-ace7-49f0bb45ace5": {
+    "id": "688847b4-5a1e-42df-ace7-49f0bb45ace5",
+    "title": "Kaffe med Kasper",
+    "description": "Lad os tage en rolig kaffe og l\u00e6re hinanden bedre at kende",
+    "creator_id": "67f0402f-de43-4050-8ede-1571828e2050",
+    "time": "2026-03-13 06:42:52.692934",
+    "location": "Original Coffee",
+    "invited_users": [
+      "98f8d6d1-2634-4034-be9d-7fe4698bca3f"
+    ],
+    "responses": {},
+    "created_at": "2026-03-11 14:42:52.692952"
+  },
+  "f2651b02-163e-42fd-bc57-f0c0a64dc808": {
+    "id": "f2651b02-163e-42fd-bc57-f0c0a64dc808",
+    "title": "Walk & Talk med Freja",
+    "description": "En g\u00e5tur og hyggesnak i byen",
+    "creator_id": "77108fa8-51da-4a4d-b963-fbd082794a40",
+    "time": "2026-03-14 06:42:52.692979",
+    "location": "Botanisk Have",
+    "invited_users": [
+      "98f8d6d1-2634-4034-be9d-7fe4698bca3f"
+    ],
+    "responses": {},
+    "created_at": "2026-03-11 14:42:52.692995"
+  }
+}

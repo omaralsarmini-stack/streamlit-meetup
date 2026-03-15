@@ -1,0 +1,120 @@
+{
+  "d35789de-7bf6-4795-9c71-799fa79525b5": {
+    "id": "d35789de-7bf6-4795-9c71-799fa79525b5",
+    "name": "\u2615 Kaffe-Entusiaster",
+    "description": "For alle der elsker kaffe! Vi m\u00f8des p\u00e5 hyggelige caf\u00e9er og diskuterer sorter.",
+    "hobbies": [
+      "Kaffe",
+      "Socialsamv\u00e6r"
+    ],
+    "creator_id": "system",
+    "members": [
+      "13309451-3767-4c8e-a4db-099ab70aeeb4",
+      "13309451-3767-4c8e-a4db-099ab70aeeb4",
+      "13309451-3767-4c8e-a4db-099ab70aeeb4",
+      "13309451-3767-4c8e-a4db-099ab70aeeb4",
+      "13309451-3767-4c8e-a4db-099ab70aeeb4",
+      "9d8d067c-794a-4c57-820d-21d3ee2c53a7",
+      "9d8d067c-794a-4c57-820d-21d3ee2c53a7"
+    ],
+    "settings": {},
+    "created_at": "2026-03-02 10:50:25.544576"
+  },
+  "8670dfb3-36b3-4cf1-9514-82c3aaff4884": {
+    "id": "8670dfb3-36b3-4cf1-9514-82c3aaff4884",
+    "name": "\ud83c\udfa8 Kunstnere & Designere",
+    "description": "Kreativ f\u00e6llesskab for kunstnere, designere og kreative sj\u00e6le.",
+    "hobbies": [
+      "Kunst",
+      "Design",
+      "Musik"
+    ],
+    "creator_id": "system",
+    "members": [
+      "13309451-3767-4c8e-a4db-099ab70aeeb4",
+      "13309451-3767-4c8e-a4db-099ab70aeeb4",
+      "9d8d067c-794a-4c57-820d-21d3ee2c53a7",
+      "98f8d6d1-2634-4034-be9d-7fe4698bca3f",
+      "98f8d6d1-2634-4034-be9d-7fe4698bca3f",
+      "98f8d6d1-2634-4034-be9d-7fe4698bca3f",
+      "98f8d6d1-2634-4034-be9d-7fe4698bca3f",
+      "98f8d6d1-2634-4034-be9d-7fe4698bca3f",
+      "98f8d6d1-2634-4034-be9d-7fe4698bca3f",
+      "98f8d6d1-2634-4034-be9d-7fe4698bca3f"
+    ],
+    "settings": {},
+    "created_at": "2026-03-02 10:50:25.544673"
+  },
+  "8d14aeed-760f-44c9-9554-abad58ad0377": {
+    "id": "8d14aeed-760f-44c9-9554-abad58ad0377",
+    "name": "\ud83d\udcaa Fitnessb\u00f8lgen",
+    "description": "Tr\u00e6n sammen, motiv\u00e9r hinanden! Alle fitnessniveauer velkommen.",
+    "hobbies": [
+      "Tr\u00e6ning",
+      "Sundhed"
+    ],
+    "creator_id": "system",
+    "members": [
+      "13309451-3767-4c8e-a4db-099ab70aeeb4",
+      "98f8d6d1-2634-4034-be9d-7fe4698bca3f",
+      "98f8d6d1-2634-4034-be9d-7fe4698bca3f",
+      "98f8d6d1-2634-4034-be9d-7fe4698bca3f",
+      "98f8d6d1-2634-4034-be9d-7fe4698bca3f",
+      "98f8d6d1-2634-4034-be9d-7fe4698bca3f",
+      "98f8d6d1-2634-4034-be9d-7fe4698bca3f",
+      "98f8d6d1-2634-4034-be9d-7fe4698bca3f",
+      "98f8d6d1-2634-4034-be9d-7fe4698bca3f",
+      "98f8d6d1-2634-4034-be9d-7fe4698bca3f",
+      "98f8d6d1-2634-4034-be9d-7fe4698bca3f",
+      "98f8d6d1-2634-4034-be9d-7fe4698bca3f"
+    ],
+    "settings": {},
+    "created_at": "2026-03-02 10:50:25.544712"
+  },
+  "3c5bf0af-86b7-497a-8124-7dfa01e87041": {
+    "id": "3c5bf0af-86b7-497a-8124-7dfa01e87041",
+    "name": "\ud83c\udfae Gamers Forening",
+    "description": "For alle der elsker at spille! Fra casual til hardcore gamers.",
+    "hobbies": [
+      "Gaming",
+      "Tech"
+    ],
+    "creator_id": "system",
+    "members": [
+      "13309451-3767-4c8e-a4db-099ab70aeeb4"
+    ],
+    "settings": {},
+    "created_at": "2026-03-02 10:50:25.544743"
+  },
+  "90769c48-a3bb-460d-8965-ee90dff71c02": {
+    "id": "90769c48-a3bb-460d-8965-ee90dff71c02",
+    "name": "\ud83d\udcda Bog-Klubben",
+    "description": "Vi diskuterer b\u00f8ger og snakker litteratur over kaffe.",
+    "hobbies": [
+      "L\u00e6sning",
+      "Kultur"
+    ],
+    "creator_id": "system",
+    "members": [
+      "13309451-3767-4c8e-a4db-099ab70aeeb4"
+    ],
+    "settings": {},
+    "created_at": "2026-03-02 10:50:25.544773"
+  },
+  "ca5ba891-f345-4d78-a226-c651b6c1fba8": {
+    "id": "ca5ba891-f345-4d78-a226-c651b6c1fba8",
+    "name": "\ud83d\udeb4 Cykelvenner",
+    "description": "Cykelture i og omkring K\u00f8benhavn. Alle niveauer.",
+    "hobbies": [
+      "Cykling",
+      "Udend\u00f8rs",
+      "Sundhed"
+    ],
+    "creator_id": "system",
+    "members": [
+      "13309451-3767-4c8e-a4db-099ab70aeeb4"
+    ],
+    "settings": {},
+    "created_at": "2026-03-02 10:50:25.544801"
+  }
+}

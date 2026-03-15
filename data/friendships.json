@@ -1,0 +1,51 @@
+{
+  "13309451-3767-4c8e-a4db-099ab70aeeb4": {
+    "friends": [
+      "9d8d067c-794a-4c57-820d-21d3ee2c53a7"
+    ],
+    "pending": []
+  },
+  "9d8d067c-794a-4c57-820d-21d3ee2c53a7": {
+    "friends": [
+      "13309451-3767-4c8e-a4db-099ab70aeeb4"
+    ],
+    "pending": []
+  },
+  "98f8d6d1-2634-4034-be9d-7fe4698bca3f": {
+    "friends": [
+      "67f0402f-de43-4050-8ede-1571828e2050",
+      "77108fa8-51da-4a4d-b963-fbd082794a40",
+      "606a5e6d-29ea-4902-b3f0-65b9cfe8b454"
+    ],
+    "pending": []
+  },
+  "67f0402f-de43-4050-8ede-1571828e2050": {
+    "friends": [
+      "98f8d6d1-2634-4034-be9d-7fe4698bca3f",
+      "8086679d-3b74-4ba4-828d-4a5ec236bf7c"
+    ],
+    "pending": []
+  },
+  "77108fa8-51da-4a4d-b963-fbd082794a40": {
+    "friends": [
+      "98f8d6d1-2634-4034-be9d-7fe4698bca3f",
+      "8086679d-3b74-4ba4-828d-4a5ec236bf7c"
+    ],
+    "pending": []
+  },
+  "606a5e6d-29ea-4902-b3f0-65b9cfe8b454": {
+    "friends": [
+      "98f8d6d1-2634-4034-be9d-7fe4698bca3f",
+      "8086679d-3b74-4ba4-828d-4a5ec236bf7c"
+    ],
+    "pending": []
+  },
+  "8086679d-3b74-4ba4-828d-4a5ec236bf7c": {
+    "friends": [
+      "67f0402f-de43-4050-8ede-1571828e2050",
+      "77108fa8-51da-4a4d-b963-fbd082794a40",
+      "606a5e6d-29ea-4902-b3f0-65b9cfe8b454"
+    ],
+    "pending": []
+  }
+}

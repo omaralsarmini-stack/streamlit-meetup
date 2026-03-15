@@ -1,0 +1,90 @@
+{
+  "c783546d-1714-4ac8-bd18-486fe08871a5": {
+    "id": "c783546d-1714-4ac8-bd18-486fe08871a5",
+    "sender_id": "9d8d067c-794a-4c57-820d-21d3ee2c53a7",
+    "recipient_id": "13309451-3767-4c8e-a4db-099ab70aeeb4",
+    "text": "Hej! Skal vi tage en kaffe i weekenden? \u2615",
+    "timestamp": "2026-03-10 20:31:35.042133",
+    "read": false
+  },
+  "b984c05b-4d39-4f75-ac0b-4967cbc1f583": {
+    "id": "b984c05b-4d39-4f75-ac0b-4967cbc1f583",
+    "sender_id": "13309451-3767-4c8e-a4db-099ab70aeeb4",
+    "recipient_id": "9d8d067c-794a-4c57-820d-21d3ee2c53a7",
+    "text": "Ja mega gerne! L\u00f8rdag kl. 14 passer mig.",
+    "timestamp": "2026-03-09 22:31:35.042153",
+    "read": false
+  },
+  "9af5ba62-f666-4a43-8ce9-380ae7fa19d5": {
+    "id": "9af5ba62-f666-4a43-8ce9-380ae7fa19d5",
+    "sender_id": "9d8d067c-794a-4c57-820d-21d3ee2c53a7",
+    "recipient_id": "13309451-3767-4c8e-a4db-099ab70aeeb4",
+    "text": "sure",
+    "timestamp": "2026-03-11 14:32:06.096988",
+    "read": false
+  },
+  "6cb4c3fc-2f91-4781-bd11-41c2ad4ba2d7": {
+    "id": "6cb4c3fc-2f91-4781-bd11-41c2ad4ba2d7",
+    "sender_id": "9d8d067c-794a-4c57-820d-21d3ee2c53a7",
+    "recipient_id": "13309451-3767-4c8e-a4db-099ab70aeeb4",
+    "text": "sure",
+    "timestamp": "2026-03-11 14:32:16.561134",
+    "read": false
+  },
+  "f625b5a9-7e9b-4cdb-9c7d-2bb6d4b1631c": {
+    "id": "f625b5a9-7e9b-4cdb-9c7d-2bb6d4b1631c",
+    "sender_id": "67f0402f-de43-4050-8ede-1571828e2050",
+    "recipient_id": "98f8d6d1-2634-4034-be9d-7fe4698bca3f",
+    "text": "Hej! Skal vi m\u00f8des til kaffe i weekenden? \u2615",
+    "timestamp": "2026-03-11 12:42:52.692800",
+    "read": false
+  },
+  "e6786b62-bdfb-448f-99cc-67f5cda5dbc0": {
+    "id": "e6786b62-bdfb-448f-99cc-67f5cda5dbc0",
+    "sender_id": "77108fa8-51da-4a4d-b963-fbd082794a40",
+    "recipient_id": "98f8d6d1-2634-4034-be9d-7fe4698bca3f",
+    "text": "Hey! Vil du med til tr\u00e6ning i morgen? \ud83d\udcaa",
+    "timestamp": "2026-03-11 11:42:52.692854",
+    "read": false
+  },
+  "aa6001ee-1078-48ec-a5b6-dbffe3924ad9": {
+    "id": "aa6001ee-1078-48ec-a5b6-dbffe3924ad9",
+    "sender_id": "606a5e6d-29ea-4902-b3f0-65b9cfe8b454",
+    "recipient_id": "98f8d6d1-2634-4034-be9d-7fe4698bca3f",
+    "text": "Hej \ud83d\ude0a Jeg har fundet et hyggeligt event vi kan tage til",
+    "timestamp": "2026-03-11 10:42:52.692888",
+    "read": false
+  },
+  "2154674e-b520-43f9-be24-cae00d7d3bcf": {
+    "id": "2154674e-b520-43f9-be24-cae00d7d3bcf",
+    "sender_id": "98f8d6d1-2634-4034-be9d-7fe4698bca3f",
+    "recipient_id": "67f0402f-de43-4050-8ede-1571828e2050",
+    "text": "okey gang ",
+    "timestamp": "2026-03-11 14:47:40.399912",
+    "read": false
+  },
+  "86404a57-6d23-4ec6-bab9-8c7bdffcd5b2": {
+    "id": "86404a57-6d23-4ec6-bab9-8c7bdffcd5b2",
+    "sender_id": "67f0402f-de43-4050-8ede-1571828e2050",
+    "recipient_id": "8086679d-3b74-4ba4-828d-4a5ec236bf7c",
+    "text": "Hej! Skal vi m\u00f8des til kaffe i weekenden? \u2615",
+    "timestamp": "2026-03-15 12:59:23.578399",
+    "read": false
+  },
+  "a42d11ef-bd7f-4ed6-84aa-a24d81cf14d3": {
+    "id": "a42d11ef-bd7f-4ed6-84aa-a24d81cf14d3",
+    "sender_id": "77108fa8-51da-4a4d-b963-fbd082794a40",
+    "recipient_id": "8086679d-3b74-4ba4-828d-4a5ec236bf7c",
+    "text": "Hey! Vil du med til tr\u00e6ning i morgen? \ud83d\udcaa",
+    "timestamp": "2026-03-15 11:59:23.578420",
+    "read": false
+  },
+  "8903ebc8-fd7e-4658-ba41-e99596f7f33f": {
+    "id": "8903ebc8-fd7e-4658-ba41-e99596f7f33f",
+    "sender_id": "606a5e6d-29ea-4902-b3f0-65b9cfe8b454",
+    "recipient_id": "8086679d-3b74-4ba4-828d-4a5ec236bf7c",
+    "text": "Hej \ud83d\ude0a Jeg har fundet et hyggeligt event vi kan tage til",
+    "timestamp": "2026-03-15 10:59:23.578428",
+    "read": false
+  }
+}

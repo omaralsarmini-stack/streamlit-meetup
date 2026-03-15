@@ -1,0 +1,166 @@
+import streamlit as st
+from datetime import datetime, date
+
+# Basic helpers to render styled components inspired by your Figma React code
+
+def _detect_theme_base():
+    # Try to detect Streamlit theme base ('light' or 'dark')
+    try:
+        base = st.get_option('theme.base')
+        if base:
+            return base
+    except Exception:
+        pass
+    return 'light'
+
+
+def welcome_screen():
+    # Theme-aware text color via CSS variables set in app.py; keep markup free of functional buttons
+    html = '''
+    <div style="min-height:60vh; display:flex; align-items:center; justify-content:center; padding:36px; border-radius:12px; color:white; background:linear-gradient(135deg,#4f46e5 0%,#7c3aed 25%,#d946ef 50%,#06b6d4 75%,#10b981 100%); position:relative; overflow:hidden;">
+      <div style="position:absolute; top:-40%; right:-10%; width:400px; height:400px; background:rgba(255,255,255,0.08); border-radius:50%; animation:bounce 8s ease-in-out infinite;"></div>
+      <div style="position:absolute; bottom:-20%; left:-10%; width:300px; height:300px; background:rgba(255,255,255,0.06); border-radius:50%; animation:bounce 10s ease-in-out infinite 1s;"></div>
+      <div style="max-width:360px; text-align:center; position:relative; z-index:1; animation:slideUp 0.6s ease-out;">
+        <div style="background:rgba(255,255,255,0.95); width:84px; height:84px; border-radius:999px; display:inline-flex; align-items:center; justify-content:center; box-shadow:0 8px 30px rgba(0,0,0,0.15); animation:bounce 3s ease-in-out infinite;">
+          <div style="font-size:36px;">👥</div>
+        </div>
+        <h1 style="margin:18px 0 4px; font-size:34px; font-weight:800; animation:slideUp 0.6s ease-out 0.1s both;">MeetUp</h1>
+        <div style="opacity:0.95; margin-bottom:16px; animation:slideUp 0.6s ease-out 0.2s both;">Connect with friends in real life</div>
+
+        <div style="background:rgba(255,255,255,0.12); padding:14px; border-radius:14px; margin-bottom:8px; border:1px solid rgba(255,255,255,0.2); animation:slideUp 0.6s ease-out 0.3s both;">
+          <p style="margin:6px 0;">✨ Plan spontaneous meetups</p>
+          <p style="margin:6px 0;">🎯 Coordinate with ease</p>
+          <p style="margin:6px 0;">💫 Strengthen your connections</p>
+        </div>
+
+        <div style="height:18px"></div>
+
+        <p style="opacity:0.85; font-size:12px; margin-top:12px; animation:slideUp 0.6s ease-out 0.4s both;">By continuing, you agree to our Terms & Privacy Policy</p>
+      </div>
+    </div>
+    '''
+    st.markdown(html, unsafe_allow_html=True)
+
+
+def render_welcome_buttons():
+    """Render functional welcome buttons using Streamlit controls with enhanced styling."""
+    # Add extra spacing so buttons are pushed down and don't overlap the hero
+    st.markdown('''
+    <style>
+    .welcome-button-container { margin-top:28px; animation:slideUp 0.6s ease-out 0.5s both; }
+    </style>
+    ''', unsafe_allow_html=True)
+    
+    st.markdown('<div class="welcome-button-container"></div>', unsafe_allow_html=True)
+
+    # Primary button with gradient styling
+    cols = st.columns([1,2,1])
+    if cols[1].button('🚀 Get Started', key='ui_get_started'):
+        return 'get_started'
+
+    # Secondary actions stacked beneath primary
+    st.markdown('<div style="height:10px"></div>', unsafe_allow_html=True)
+    col1, col2 = st.columns(2)
+    if col1.button('🔵 Google', key='ui_google'):
+        return 'google'
+    if col2.button('🔷 Facebook', key='ui_facebook'):
+        return 'facebook'
+
+    return None
+
+
+def render_meetup_card(m, card_id):
+    yes = sum(1 for r in m.get('responses', {}).values() if r.get('response') == 'Yes')
+    maybe = sum(1 for r in m.get('responses', {}).values() if r.get('response') == 'Maybe')
+    pending = len(m.get('invited', [])) - len(m.get('responses', {}))
+    html = f"""
+    <div class="card" style="cursor:pointer; border-left:4px solid #7c3aed; position:relative;">
+      <div style="display:flex;justify-content:space-between;align-items:start;margin-bottom:8px">
+        <div style="font-weight:700;font-size:15px;color:var(--text-color)">{m.get('message')}</div>
+        <div style="color:var(--muted); font-size:18px; transition:transform 0.3s ease;">➔</div>
+      </div>
+      <div style="color:var(--muted);font-size:13px;margin-bottom:10px;">📅 {m.get('time').strftime('%b %d at %I:%M %p')} — 📍 {m.get('location')}</div>
+      <div style="display:flex;gap:6px;flex-wrap:wrap;">
+        <span class="badge success">✓ {yes} Going</span>
+        <span class="badge maybe">? {maybe} Maybe</span>
+        <span class="badge pending">… {pending} Pending</span>
+      </div>
+    </div>
+    """
+    st.markdown(html, unsafe_allow_html=True)
+    # Single-click button to view meetup
+    if st.button('View Details', key=card_id, use_container_width=True):
+        st.session_state._view_meetup = m['id']
+        st.session_state.pending_page = 'Meetup Overview'
+
+
+def render_home(meetups, friends):
+    # header area is built in main; show meetups and activity
+    st.markdown('### Upcoming Meetups')
+    if not meetups:
+        st.info('No upcoming meetups. Create one!')
+        return
+    for idx, m in enumerate(meetups):
+        render_meetup_card(m, f'card_{m["id"][:8]}_{idx}')
+
+    st.markdown('### Friends Activity')
+    activities = []
+    for m in sorted(meetups, key=lambda x: x.get('created_at', datetime.now()), reverse=True):
+        for name, resp in m.get('responses', {}).items():
+            activities.append({'name': name, 'text': f"{name} {'accepted' if resp['response']=='Yes' else 'responded'} your invite", 'time': resp.get('at', m.get('created_at'))})
+    activities = sorted(activities, key=lambda x: x['time'], reverse=True)[:3]
+    if not activities:
+        st.info('No recent activity')
+    for a in activities:
+        time_diff = (datetime.now()-a['time']).total_seconds()
+        if time_diff < 60:
+            time_str = 'just now'
+        elif time_diff < 3600:
+            time_str = f'{int(time_diff//60)} min ago'
+        elif time_diff < 86400:
+            time_str = f'{int(time_diff//3600)}h ago'
+        else:
+            time_str = f'{int(time_diff//86400)}d ago'
+        st.markdown(f'<div class="activity">👋 <b>{a["name"]}</b> {a["text"]}<div style="color:var(--muted);font-size:12px">{time_str}</div></div>', unsafe_allow_html=True)
+
+
+def render_profile():
+    st.markdown('<div class="card" style="background:linear-gradient(135deg,#10b981 0%,#06b6d4 100%); color:white; padding:18px; border-radius:16px; margin-bottom:12px; animation: slideUp 0.5s ease-out; border-left: 4px solid #10b981;">', unsafe_allow_html=True)
+    st.markdown('<div style="text-align:center; animation:slideUp 0.5s ease-out 0.1s both;"><div style="font-size:48px; animation:bounce 3s ease-in-out infinite;">😊</div><h2 style="margin:12px 0 4px; font-weight:800;">John Doe</h2><div style="opacity:0.9">john.doe@email.com</div></div>', unsafe_allow_html=True)
+    st.markdown('</div>', unsafe_allow_html=True)
+    st.markdown('''
+    <div class="card" style="animation: slideUp 0.5s ease-out 0.15s both;">
+      <h3 style="margin-top:0;">⏱️ Availability</h3>
+      <p class="muted">Toggle your availability and set your status for friends</p>
+    </div>
+    ''', unsafe_allow_html=True)
+
+
+def render_friends(friends):
+    st.markdown('### 👥 Friends')
+    for idx, f in enumerate(friends):
+        status = '🟢 Active now' if f.get('online') else '⚫ Offline'
+        delay = 0.3 + (idx * 0.08)
+        st.markdown(f'<div class="card" style="animation: slideUp 0.5s ease-out {delay}s both;"><div style="display:flex;align-items:center;justify-content:space-between;"><div style="display:flex;align-items:center;gap:12px;"><div style="font-size:32px;">👤</div><div><div style="font-weight:700; color:var(--text-color);">{f.get("name")}</div><div class="small">{status}</div></div></div><div style="color:var(--muted); opacity:0.6;">→</div></div></div>', unsafe_allow_html=True)
+
+
+def render_create_meetup_form(names):
+    st.header('✨ Create Meetup')
+    st.markdown('<div style="opacity:0.8; margin-bottom:16px;">Plan and coordinate your next meetup</div>', unsafe_allow_html=True)
+    
+    dt_date = st.date_input('📅 Date', value=date.today())
+    dt_time = st.time_input('⏰ Time')
+    location = st.text_input('📍 Location')
+    message = st.text_input('💬 Short message')
+    invited = st.multiselect('👥 Invite friends', options=names)
+    
+    st.markdown('<div style="height:8px;"></div>', unsafe_allow_html=True)
+    col1, col2 = st.columns(2)
+    with col1:
+        pass
+    with col2:
+        if st.button('🚀 Send Invite', use_container_width=True):
+            return {'date': dt_date, 'time': dt_time, 'location': location, 'message': message, 'invited': invited}
+    return None
+
+

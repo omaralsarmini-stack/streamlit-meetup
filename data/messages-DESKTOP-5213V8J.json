@@ -1,0 +1,58 @@
+{
+  "ae85e40f-7564-4ca8-b7c1-8b46ed7ad4de": {
+    "id": "ae85e40f-7564-4ca8-b7c1-8b46ed7ad4de",
+    "sender_id": "812c064c-b54d-4bbe-abe1-27456cab1bf9",
+    "recipient_id": "8770ae56-7511-4d81-846c-fd3099a99a7d",
+    "text": "Hej! Skal vi tage en kaffe i weekenden? \u2615",
+    "timestamp": "2026-03-13 18:37:44.545576",
+    "read": false
+  },
+  "e75f5066-f643-44c9-bba5-125e79992c4d": {
+    "id": "e75f5066-f643-44c9-bba5-125e79992c4d",
+    "sender_id": "8770ae56-7511-4d81-846c-fd3099a99a7d",
+    "recipient_id": "812c064c-b54d-4bbe-abe1-27456cab1bf9",
+    "text": "Ja mega gerne! L\u00f8rdag kl. 14 passer mig.",
+    "timestamp": "2026-03-15 02:37:44.545594",
+    "read": false
+  },
+  "41acc061-8471-4dc7-91f2-780d9c2cd535": {
+    "id": "41acc061-8471-4dc7-91f2-780d9c2cd535",
+    "sender_id": "655d275c-0e02-48df-bb7b-d0b9c4e1d71b",
+    "recipient_id": "8770ae56-7511-4d81-846c-fd3099a99a7d",
+    "text": "Jeg har oprettet et lille fitness meetup i morgen \ud83d\udcaa",
+    "timestamp": "2026-03-14 05:37:44.545603",
+    "read": false
+  },
+  "b906fae1-8425-4201-9190-cd3f9fb53494": {
+    "id": "b906fae1-8425-4201-9190-cd3f9fb53494",
+    "sender_id": "602ab9e2-5b47-4a11-9fbe-b173963efdf7",
+    "recipient_id": "8770ae56-7511-4d81-846c-fd3099a99a7d",
+    "text": "Kunne v\u00e6re fedt med en br\u00e6tspilsaften \ud83c\udfb2",
+    "timestamp": "2026-03-15 08:37:44.545609",
+    "read": false
+  },
+  "c195b4e5-434a-40ba-ab43-610074621c40": {
+    "id": "c195b4e5-434a-40ba-ab43-610074621c40",
+    "sender_id": "90c6a6a2-b103-4e7a-bb48-1f31e939d4dc",
+    "recipient_id": "41ea4600-bde7-413a-a106-e0e829af1470",
+    "text": "Hej! Skal vi m\u00f8des til kaffe i weekenden? \u2615",
+    "timestamp": "2026-03-15 11:38:11.885887",
+    "read": false
+  },
+  "8e727bea-98e7-4041-a5cb-c1eb36759888": {
+    "id": "8e727bea-98e7-4041-a5cb-c1eb36759888",
+    "sender_id": "f4920dc6-3694-47c9-b488-12cb6ca46b25",
+    "recipient_id": "41ea4600-bde7-413a-a106-e0e829af1470",
+    "text": "Hey! Vil du med til tr\u00e6ning i morgen? \ud83d\udcaa",
+    "timestamp": "2026-03-15 10:38:11.885900",
+    "read": false
+  },
+  "d9f6d047-66f6-4d55-b317-88b99bf75e30": {
+    "id": "d9f6d047-66f6-4d55-b317-88b99bf75e30",
+    "sender_id": "e655e088-b063-4384-bb77-097713e9159f",
+    "recipient_id": "41ea4600-bde7-413a-a106-e0e829af1470",
+    "text": "Hej \ud83d\ude0a Jeg har fundet et hyggeligt event vi kan tage til",
+    "timestamp": "2026-03-15 09:38:11.885907",
+    "read": false
+  }
+}

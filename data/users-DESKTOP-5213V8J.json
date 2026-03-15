@@ -1,0 +1,110 @@
+{
+  "8770ae56-7511-4d81-846c-fd3099a99a7d": {
+    "id": "8770ae56-7511-4d81-846c-fd3099a99a7d",
+    "username": "Emma_K",
+    "password": "123456",
+    "email": "emma@example.com",
+    "age": 24,
+    "created_at": "2026-03-15 13:37:44.542300",
+    "online": true
+  },
+  "812c064c-b54d-4bbe-abe1-27456cab1bf9": {
+    "id": "812c064c-b54d-4bbe-abe1-27456cab1bf9",
+    "username": "Markus",
+    "password": "123456",
+    "email": "markus@example.com",
+    "age": 28,
+    "created_at": "2026-03-15 13:37:44.542319",
+    "online": false
+  },
+  "655d275c-0e02-48df-bb7b-d0b9c4e1d71b": {
+    "id": "655d275c-0e02-48df-bb7b-d0b9c4e1d71b",
+    "username": "Sofia_Art",
+    "password": "123456",
+    "email": "sofia@example.com",
+    "age": 26,
+    "created_at": "2026-03-15 13:37:44.542329",
+    "online": false
+  },
+  "602ab9e2-5b47-4a11-9fbe-b173963efdf7": {
+    "id": "602ab9e2-5b47-4a11-9fbe-b173963efdf7",
+    "username": "Lars_Fit",
+    "password": "123456",
+    "email": "lars@example.com",
+    "age": 30,
+    "created_at": "2026-03-15 13:37:44.542337",
+    "online": true
+  },
+  "dbd20a1a-a1a5-4fc3-ab09-464f67fb3a03": {
+    "id": "dbd20a1a-a1a5-4fc3-ab09-464f67fb3a03",
+    "username": "Nora_Chef",
+    "password": "123456",
+    "email": "nora@example.com",
+    "age": 25,
+    "created_at": "2026-03-15 13:37:44.542344",
+    "online": true
+  },
+  "495fc84e-d55e-4bd1-9ee0-51a4651380eb": {
+    "id": "495fc84e-d55e-4bd1-9ee0-51a4651380eb",
+    "username": "Alex_Dev",
+    "password": "123456",
+    "email": "alex@example.com",
+    "age": 29,
+    "created_at": "2026-03-15 13:37:44.542350",
+    "online": false
+  },
+  "3b03cbb8-291f-4e93-8a08-04182b274a7e": {
+    "id": "3b03cbb8-291f-4e93-8a08-04182b274a7e",
+    "username": "Julie_Dance",
+    "password": "123456",
+    "email": "julie@example.com",
+    "age": 23,
+    "created_at": "2026-03-15 13:37:44.542357",
+    "online": false
+  },
+  "1f23996f-aa79-4aeb-9ea5-30eff9725081": {
+    "id": "1f23996f-aa79-4aeb-9ea5-30eff9725081",
+    "username": "Noah_Music",
+    "password": "123456",
+    "email": "noah@example.com",
+    "age": 27,
+    "created_at": "2026-03-15 13:37:44.542364",
+    "online": false
+  },
+  "41ea4600-bde7-413a-a106-e0e829af1470": {
+    "id": "41ea4600-bde7-413a-a106-e0e829af1470",
+    "username": "omar",
+    "password": "1234",
+    "email": "gsdgerqfasf",
+    "age": 18,
+    "created_at": "2026-03-15 13:38:07.575324",
+    "online": true
+  },
+  "90c6a6a2-b103-4e7a-bb48-1f31e939d4dc": {
+    "id": "90c6a6a2-b103-4e7a-bb48-1f31e939d4dc",
+    "username": "Kasper",
+    "password": "123456",
+    "email": "kasper@example.com",
+    "age": 22,
+    "created_at": "2026-03-15 13:38:11.885841",
+    "online": false
+  },
+  "f4920dc6-3694-47c9-b488-12cb6ca46b25": {
+    "id": "f4920dc6-3694-47c9-b488-12cb6ca46b25",
+    "username": "Freja",
+    "password": "123456",
+    "email": "freja@example.com",
+    "age": 24,
+    "created_at": "2026-03-15 13:38:11.885859",
+    "online": false
+  },
+  "e655e088-b063-4384-bb77-097713e9159f": {
+    "id": "e655e088-b063-4384-bb77-097713e9159f",
+    "username": "Sofie",
+    "password": "123456",
+    "email": "sofie@example.com",
+    "age": 23,
+    "created_at": "2026-03-15 13:38:11.885868",
+    "online": false
+  }
+}
