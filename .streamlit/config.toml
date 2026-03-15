@@ -12,7 +12,6 @@ font = "sans serif"
 
 [server]
 headless = true
-port = 8503
 maxUploadSize = 200
 enableCORS = true
 
