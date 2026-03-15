@@ -4,6 +4,18 @@ import uuid
 from datetime import datetime, date, timedelta
 from pathlib import Path
 
+st.set_page_config(
+    page_title="Fællesskab",
+    page_icon="👥",
+    layout="wide",
+    initial_sidebar_state="collapsed",
+    menu_items={
+        'Get help': None,
+        'Report a bug': None,
+        'About': None
+    }
+)
+
 # ========== DATABASE SETUP ==========
 DB_DIR = Path("data")
 DB_DIR.mkdir(exist_ok=True)
@@ -1306,19 +1318,7 @@ def inject_styles():
 # ========== MAIN APP ==========
 def main():
     init_state()
-    
-    st.set_page_config(
-        page_title="Fællesskab",
-        page_icon="👥",
-        layout="wide",
-        initial_sidebar_state="collapsed",
-        menu_items={
-            'Get help': None,
-            'Report a bug': None,
-            'About': None
-        }
-    )
-    
+
     inject_styles()
     
     # Sidebar
